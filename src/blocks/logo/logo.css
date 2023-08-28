@@ -1,0 +1,11 @@
+.logo {
+  min-height: 55px;
+  min-width: 221px;
+  background-color: rgba(217, 217, 217, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+}
