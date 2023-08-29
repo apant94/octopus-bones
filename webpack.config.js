@@ -46,6 +46,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'care.html',
+      template: './src/care.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
