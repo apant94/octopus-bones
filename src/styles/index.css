@@ -3,3 +3,14 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/care/care.css);
+@import url(../blocks/care/__title/care__title.css);
+@import url(../blocks/care/__cards/care__cards.css);
+@import url(../blocks/care/__card/care__card.css);
+@import url(../blocks/care/__subtitle/care__subtitle.css);
+@import url(../blocks/care/__info/care__info.css);
+@import url(../blocks/care/__info-item/care__info-item.css);
+@import url(../blocks/care/__info-title/care__info-title.css);
+@import url(../blocks/care/__info-text/care__info-text.css);

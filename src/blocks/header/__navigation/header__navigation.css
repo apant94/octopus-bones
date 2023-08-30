@@ -1,4 +1,6 @@
 .header__navigation {
   display: flex;
-  gap: 30px;
+  gap: 3%;
+  justify-content: center;
+  width: 100%;
 }
