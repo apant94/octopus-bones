@@ -5,3 +5,10 @@
   margin: 0;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 640px) {
+  .care__cards {
+    flex-direction: column;
+    gap: 4em;
+  }
+}

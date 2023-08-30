@@ -5,3 +5,9 @@
   margin: 0;
   color: #000000;
 }
+
+@media screen and (max-width: 640px) {
+  .care__subtitle {
+    font-size: 5em;
+  }
+}

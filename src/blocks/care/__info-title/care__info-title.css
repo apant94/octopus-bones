@@ -4,3 +4,9 @@
   font-weight: 700;
   line-height: 1.38;
 }
+
+@media screen and (max-width: 640px) {
+  .care__info-title {
+    font-size: 4em;
+  }
+}

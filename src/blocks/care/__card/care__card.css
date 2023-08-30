@@ -9,3 +9,10 @@
   padding: 1.56em;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 640px) {
+  .care__card {
+    width: 100%;
+    padding: 5em;
+  }
+}

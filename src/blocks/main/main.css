@@ -1,4 +1,11 @@
 .main {
-  margin: 44px auto 0;
+  margin: 3.44em auto;
   width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .main {
+    margin: 5em auto;
+    width: 100%;
+  }
 }
