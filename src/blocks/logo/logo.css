@@ -1,11 +1,12 @@
 .logo {
-  min-height: 55px;
-  min-width: 221px;
+  min-height: 4.3em;
+  width: 17.3em;
   background-color: rgba(217, 217, 217, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   position: absolute;
-  top: 15px;
+  left: 0;
+  top: 1.17em;
 }
