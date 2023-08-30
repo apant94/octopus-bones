@@ -1,7 +1,12 @@
 .care__info-text {
-  font-size: 16px;
-  font-style: normal;
+  font-size: 1.25em;
   font-weight: 400;
-  line-height: 22px;
+  line-height: 1.37;
   margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .care__info-text {
+    font-size: 4em;
+  }
 }

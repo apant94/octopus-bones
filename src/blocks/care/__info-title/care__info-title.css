@@ -1,6 +1,12 @@
 .care__info-title {
   margin: 0;
-  font-size: 16px;
+  font-size: 1.25em;
   font-weight: 700;
-  line-height: 1.38; /* 137.5% */
+  line-height: 1.38;
+}
+
+@media screen and (max-width: 640px) {
+  .care__info-title {
+    font-size: 4em;
+  }
 }

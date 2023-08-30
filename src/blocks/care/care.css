@@ -1,7 +1,7 @@
 .care {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 3.12em;
   width: 90%;
   margin: 0 auto;
 }

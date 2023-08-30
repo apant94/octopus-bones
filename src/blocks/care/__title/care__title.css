@@ -1,8 +1,14 @@
 .care__title {
-  font-size: 26px;
+  font-size: 2.03em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   color: #000;
   margin: 0;
+}
+
+@media screen and (max-width: 640px) {
+  .care__title {
+    font-size: 6.5em;
+  }
 }
