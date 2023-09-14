@@ -5,3 +5,13 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'PPAgrandir';
+  src: url('PPAgrandir-Regular.woff2') format('woff2'),
+    url('PPAgrandir-Regular.woff') format('woff'),
+    url('PPAgrandir-Regular.otf') format('opentype'),
+    url('PPAgrandir-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
