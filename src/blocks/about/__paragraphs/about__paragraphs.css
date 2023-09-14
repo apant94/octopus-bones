@@ -1,0 +1,12 @@
+.about__paragraphs {
+  padding: 0;
+  margin: 1.25em 0 0;
+  width: 82%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
+.about__paragraphs li {
+  list-style: none;
+}
