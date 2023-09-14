@@ -4,3 +4,10 @@
   justify-content: center;
   width: 100%;
 }
+
+@media screen and (max-width: 640px) {
+  .header__navigation {
+    display: none;
+    opacity: 0;
+  }
+}

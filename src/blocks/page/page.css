@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   font-size: 1vw;
   width: 90%;
   max-width: calc(1920px - 10%);
