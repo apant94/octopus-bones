@@ -1,0 +1,6 @@
+.header__burger-nav {
+display: flex;
+flex-direction: column;
+gap: 3em;
+margin: 9em 5.5em 0;
+}

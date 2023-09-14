@@ -8,5 +8,7 @@
 @media screen and (max-width: 640px) {
   .header {
     height: 21em;
+    justify-content: flex-end;
+    /* position: relative; */
   }
 }
