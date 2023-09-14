@@ -1,0 +1,13 @@
+.header__burger-nav_opened {
+  animation: fadeDown 1s ease-in-out forwards;
+}
+
+
+@keyframes fadeDown {
+	from {
+		transform: translate3d(0, -80em, 0);
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+	}
+}

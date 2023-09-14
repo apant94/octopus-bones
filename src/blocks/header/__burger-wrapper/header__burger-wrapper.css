@@ -2,14 +2,14 @@
   display: flex;
   visibility: hidden;
   opacity: 0;
-  position: absolute;
+  position: fixed; 
   bottom: 0;
   right: 0;
   left: 0;
   top: 0;
   margin: 0;
   gap: 2.3em;
-  background-color: white;
+  background-color: rgba(12, 11, 11, .5);
   z-index: 3;
-  transition: all .3s linear;
+  transition: visibility .5s, opacity .5s linear;
 }

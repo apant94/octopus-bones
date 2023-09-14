@@ -1,0 +1,10 @@
+.header__burger-close {
+  position: absolute;
+  z-index: 2;
+  position: absolute;
+  right: 4em;
+  top: 7.5em;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

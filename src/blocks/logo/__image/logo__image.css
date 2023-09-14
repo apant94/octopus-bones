@@ -3,6 +3,7 @@
   margin: 0;
   font-weight: 300;
   font-size: 1.25em;
+  text-wrap: nowrap;
 }
 
 @media screen and (max-width: 640px) {

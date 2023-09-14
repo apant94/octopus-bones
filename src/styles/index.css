@@ -10,6 +10,9 @@
 @import url(../blocks/header/__burger-icon/header__burger-icon.css);
 @import url(../blocks/header/__burger-wrapper/header__burger-wrapper.css);
 @import url(../blocks/header/__burger-nav/header__burger-nav.css);
+@import url(../blocks/header/__burger-nav/_opened/header__burger-nav_opened.css);
+@import url(../blocks/header/__burger-close/header__burger-close.css);
+@import url(../blocks/header/__burger-closeicon/header__burger-closeicon.css);
 @import url(../blocks/opened/opened.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/care/care.css);
