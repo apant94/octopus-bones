@@ -1,0 +1,13 @@
+.about__speaker {
+  display: flex;
+  flex-direction: column;
+  width: calc(27% - 32px);
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about__speaker {
+    width: 144px;
+    order: -1;
+  }
+}
