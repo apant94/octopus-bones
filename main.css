@@ -15,10 +15,14 @@
 .header__burger-closeicon{height:5.5em;width:5.5em}
 .opened{opacity:1;visibility:visible}
 .main{margin:3.44em auto;width:100%}@media screen and (max-width:640px){.main{margin:5em auto;width:100%}}
-.about{display:flex;flex-direction:column;margin:2.5em auto;width:60%}
-.about__title{word-wrap:break-word;-webkit-font-smoothing:antialiased;font-size:2.2em;font-weight:600;line-height:1.3em;margin:0 auto}
-.about__paragraphs{display:flex;flex-direction:column;gap:1.25em;margin:1.25em 0 0;padding:0;width:82%}.about__paragraphs li{list-style:none}
-.about__text{word-wrap:break-word;font-size:1.25em;font-weight:400;line-height:1.8em;margin:0}
+.about{display:flex;flex-direction:column;margin:2.5em auto;position:relative;width:65%}@media screen and (max-width:768px){.about{max-width:624px;width:auto}}
+.about__title{word-wrap:break-word;-webkit-font-smoothing:antialiased;font-size:2.2em;font-weight:600;line-height:1.3em;margin:0 auto}@media screen and (max-width:768px){.about__title{font-size:28px}}
+.about__wrapper{display:flex;gap:32px;margin:1.25em 0 0}@media screen and (max-width:768px){.about__wrapper{align-items:center;flex-direction:column;gap:16px;margin:16px 0 0}}
+.about__paragraphs{display:flex;flex-direction:column;gap:1.25em;margin:0;padding:0;width:82%}.about__paragraphs li{list-style:none}
+.about__text{word-wrap:break-word;font-size:1.25em;font-weight:400;line-height:1.8em;margin:0}@media screen and (max-width:768px){.about__text{font-size:14px}}
+.about__speaker{align-items:center;display:flex;flex-direction:column;width:calc(27% - 32px)}@media screen and (max-width:768px){.about__speaker{order:-1;width:144px}}
+.about__photo{background-image:url(352663edf1c9ccaf7cb2.jpg);background-repeat:no-repeat;background-size:contain;border-radius:50%;height:11.25em;width:11.25em}@media screen and (max-width:768px){.about__photo{height:auto;padding-top:100%;width:100%}}
+.about__name{font-size:1.25em;font-weight:400;line-height:1.8em;margin:16px 0 0;text-align:center}@media screen and (max-width:768px){.about__name{font-size:14px}}
 .care{display:flex;flex-direction:column;gap:3.12em;margin:0 auto;width:90%}
 .care__title{color:#000;font-size:2.03em;font-style:normal;font-weight:700;line-height:normal;margin:0}@media screen and (max-width:640px){.care__title{font-size:6.5em}}
 .care__cards{display:flex;flex-wrap:wrap;gap:3%;margin:0;padding:0}@media screen and (max-width:640px){.care__cards{flex-direction:column;gap:4em}}
