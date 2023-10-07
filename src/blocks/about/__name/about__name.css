@@ -1,13 +1,13 @@
-.about__text {
+.about__name {
   font-size: 1.25em;
   line-height: 1.8em;
   font-weight: 400;
-  margin: 0;
-  word-wrap: break-word;
+  margin: 16px 0 0;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-  .about__text {
+  .about__name {
     font-size: 14px;
   }
 }
