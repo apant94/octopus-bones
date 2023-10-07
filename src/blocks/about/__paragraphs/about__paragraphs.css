@@ -7,6 +7,13 @@
   gap: 1.25em;
 }
 
+@media screen and (max-width: 768px) {
+  .about__paragraphs {
+    width: 100%;
+  }
+}
+
 .about__paragraphs li {
   list-style: none;
+  width: 100%;
 }

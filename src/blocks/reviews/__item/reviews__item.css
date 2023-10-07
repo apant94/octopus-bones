@@ -1,0 +1,15 @@
+.reviews__item {
+  list-style: none;
+  width: 48.5%;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: max-content min-content;
+  column-gap: 1.9em;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__item {
+    width: 100%;
+    column-gap: 6em;
+  }
+}
