@@ -11,5 +11,6 @@
   .mission {
     width: auto;
     max-width: 624px;
+    margin: 32px auto;
   }
 }

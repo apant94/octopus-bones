@@ -1,0 +1,11 @@
+.reviews__quote {
+  font-size: 1.56em;
+  font-style: italic;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__quote {
+    font-size: 18px;
+  }
+}

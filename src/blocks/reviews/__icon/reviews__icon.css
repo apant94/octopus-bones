@@ -1,0 +1,18 @@
+.reviews__icon {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 7.5em;
+  height: 7.5em;
+}
+
+@media screen and (max-width: 768px) {
+  .reviews__icon {
+    width: 24em;
+    height: 24em;
+  }
+}
