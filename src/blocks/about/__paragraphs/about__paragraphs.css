@@ -9,4 +9,5 @@
 
 .about__paragraphs li {
   list-style: none;
+  width: 100%;
 }

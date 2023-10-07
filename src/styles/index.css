@@ -32,3 +32,6 @@
 @import url(../blocks/care/__info-item/care__info-item.css);
 @import url(../blocks/care/__info-title/care__info-title.css);
 @import url(../blocks/care/__info-text/care__info-text.css);
+@import url(../blocks/mission/mission.css);
+@import url(../blocks/mission/__title/mission__title.css);
+@import url(../blocks/mission/__text/mission__text.css);

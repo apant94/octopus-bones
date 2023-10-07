@@ -1,0 +1,15 @@
+.mission__text {
+  font-size: 1.25em;
+  line-height: 1.8em;
+  font-weight: 400;
+  margin: 0;
+  word-wrap: break-word;
+  width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+  .mission__text {
+    font-size: 14px;
+    width: 100%;
+  }
+}

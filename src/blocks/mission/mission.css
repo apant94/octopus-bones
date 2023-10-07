@@ -1,0 +1,15 @@
+.mission {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 2.5em auto;
+  position: relative;
+  gap: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .mission {
+    width: auto;
+    max-width: 624px;
+  }
+}
