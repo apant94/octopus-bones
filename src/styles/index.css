@@ -17,8 +17,12 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__wrapper/about__wrapper.css);
 @import url(../blocks/about/__paragraphs/about__paragraphs.css);
 @import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__speaker/about__speaker.css);
+@import url(../blocks/about/__photo/about__photo.css);
+@import url(../blocks/about/__name/about__name.css);
 @import url(../blocks/care/care.css);
 @import url(../blocks/care/__title/care__title.css);
 @import url(../blocks/care/__cards/care__cards.css);
