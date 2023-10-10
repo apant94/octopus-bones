@@ -1,0 +1,18 @@
+.address__column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.address__column li {
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .address__column {
+  }
+}

@@ -1,0 +1,10 @@
+.address__columns {
+  display: flex;
+  gap: .63em;
+}
+
+@media screen and (max-width: 768px) {
+  .address__columns {
+    gap: 4em;
+  }  
+}

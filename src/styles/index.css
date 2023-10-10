@@ -42,3 +42,13 @@
 @import url(../blocks/reviews/__svg/reviews__svg.css);
 @import url(../blocks/reviews/__author/reviews__author.css);
 @import url(../blocks/reviews/__quote/reviews__quote.css);
+@import url(../blocks/address/address.css);
+@import url(../blocks/address/__title/address__title.css);
+@import url(../blocks/address/__wrapper/address__wrapper.css);
+@import url(../blocks/address/__map/address__map.css);
+@import url(../blocks/address/__container/address__container.css);
+@import url(../blocks/address/__text/address__text.css);
+@import url(../blocks/address/__columns/address__columns.css);
+@import url(../blocks/address/__column/address__column.css);
+@import url(../blocks/address/__subtitle/address__subtitle.css);
+@import url(../blocks/address/__link/address__link.css);
