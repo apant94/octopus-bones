@@ -1,0 +1,11 @@
+.address__wrapper {
+  display: flex;
+  gap: 1.25em;
+}
+
+@media screen and (max-width: 768px) {
+  .address__wrapper {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

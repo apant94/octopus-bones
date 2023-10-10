@@ -1,0 +1,12 @@
+.address__text {
+  font-size: 1.25em;
+  line-height: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .address__text {
+    font-size: 14px;
+  }
+}

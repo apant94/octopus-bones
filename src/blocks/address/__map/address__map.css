@@ -1,0 +1,13 @@
+.address__map {
+  width: 50%;
+  box-sizing: border-box;
+  height: 25em;
+}
+
+@media screen and (max-width: 768px) {
+  .address__map {
+    height: 90em;
+    width: 113%;
+    transform: translate(-6%, 0);
+  }
+}
