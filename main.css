@@ -13,7 +13,7 @@
 .header__burger-nav_opened{animation:fadeDown 1s ease-in-out forwards}@keyframes fadeDown{0%{transform:translate3d(0,-80em,0)}to{transform:translateZ(0)}}
 .header__burger-close{background-color:transparent;border:none;cursor:pointer;position:absolute;right:4em;top:7.5em;z-index:2}
 .header__burger-closeicon{height:5.5em;width:5.5em}
-.opened{opacity:1;visibility:visible}
+.opened{opacity:1;visibility:visible;z-index:50}
 .main{margin:3.44em auto;width:100%}@media screen and (max-width:640px){.main{margin:5em auto;width:100%}}
 .about{display:flex;flex-direction:column;margin:2.5em auto;position:relative;width:65%}@media screen and (max-width:768px){.about{margin:32px auto;max-width:624px;width:auto}}
 .about__title{word-wrap:break-word;-webkit-font-smoothing:antialiased;font-size:2.2em;font-weight:600;line-height:1.3em;margin:0 auto}@media screen and (max-width:768px){.about__title{font-size:28px}}
