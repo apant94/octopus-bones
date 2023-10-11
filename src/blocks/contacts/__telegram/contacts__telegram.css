@@ -1,0 +1,30 @@
+.contacts__telegram {
+  cursor: pointer;
+  color: #1a7ac4;
+  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1.2em;
+  margin: 0;
+  position: relative;
+  text-decoration: none;
+}
+
+.contacts__telegram:hover {
+  opacity: .7;
+}
+
+.contacts__telegram::before {
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  left: -2em;
+  top: -0.1em;
+  content: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 52 52'%3E%3Cpath fill='%2337AEE2' d='M26 0C11.64 0 0 11.64 0 26s11.64 26 26 26 26-11.64 26-26S40.36 0 26 0zm12.46 17.55l-4.264 20.38c-.2.957-1.32 1.387-2.11.81l-6.436-4.726-3.28 3.35c-.576.588-1.57.35-1.818-.435l-2.368-7.515-6.345-1.874c-.834-.245-.883-1.405-.074-1.72l24.97-9.73c.95-.37 1.932.46 1.723 1.46z'/%3E%3Cpath fill='%2337AEE2' d='M33.246 20.13L19.55 28.622c-.24.15-.35.443-.267.715l1.837 5.92c.04.124.22.107.234-.022l.447-3.97c.018-.152.09-.295.207-.396l11.598-10.256c.278-.247-.044-.68-.36-.485z'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__telegram {
+    font-size: 16px;
+  }
+}
+

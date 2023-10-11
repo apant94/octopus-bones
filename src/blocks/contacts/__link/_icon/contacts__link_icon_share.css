@@ -1,0 +1,8 @@
+.contacts__link_icon_share::before {
+  position: absolute;
+  top: 0.1em;
+  left: -1.4em;
+  content: url('data:image/svg+xml,<svg viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><path d="M12 8.118V12c0 1.105-.895 2-2 2H2c-1.105 0-2-.895-2-2V4c0-1.105.895-2 2-2h3.946v1H2c-.552 0-1 .448-1 1v8c0 .552.448 1 1 1h8c.552 0 1-.448 1-1V8.118h1zM12.293 1H10c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h3.5c.276 0 .5.224.5.5V4c0 .276-.224.5-.5.5S13 4.276 13 4V1.707L6.854 7.854c-.196.195-.512.195-.708 0-.195-.196-.195-.512 0-.708L12.293 1z" fill="%23999" fill-rule="evenodd"></path></svg>');
+  width: 1.1em;
+  height: 1.1em;
+}
