@@ -1,0 +1,14 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5em auto;
+  gap: 1.25em;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts {
+    gap: 4em;
+    margin: 32px auto;
+  }
+}

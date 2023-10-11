@@ -11,8 +11,3 @@
 .address__column li {
   list-style: none;
 }
-
-@media screen and (max-width: 768px) {
-  .address__column {
-  }
-}
