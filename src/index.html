@@ -24,21 +24,169 @@
         color: #191919;
       }
 
-      html#ecwid_html body#ecwid_body .ecsp,
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-desktop
+        nav.horizontal-menu {
+        border: none !important;
+        margin-bottom: 1em;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-desktop
+        .horizontal-menu-item.horizontal-menu-item--hover
+        > a {
+        background: transparent !important;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-desktop
+        .horizontal-menu-item
+        > a
+        span {
+        font-size: 18px;
+      }
+
+      @media screen and (max-width: 768px) {
+        html#ecwid_html
+          body#ecwid_body
+          .horizontal-menu-container.horizontal-desktop
+          .horizontal-menu-item
+          > a
+          span {
+          font-size: 16px;
+        }
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-desktop
+        .horizontal-menu-item:hover
+        > a
+        span {
+        color: #115080 !important;
+      }
+
+      /* html#ecwid_html body#ecwid_body .ecsp,
       html#ecwid_html body#ecwid_body .ecwid {
         border-bottom: 3px solid #e6e6e6;
+      } */
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-mobile {
+        border: none !important;
+        padding: 0 0 10px 0 !important;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-mobile
+        .horizontal-menu-button {
+        color: black !important;
+        font-family: "Root UI", "Segoe UI", Roboto, Arial, sans-serif;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-mobile
+        .horizontal-menu-button
+        svg {
+        display: none;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        nav.horizontal-menu.horizontal-menu--mobile
+        .horizontal-menu-item
+        > a {
+        color: black !important;
+        font-family: "Root UI", "Segoe UI", Roboto, Arial, sans-serif;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        nav.horizontal-menu.horizontal-menu--mobile
+        .horizontal-menu-parent {
+        padding: 20px !important;
+      }
+
+      html#ecwid_html body#ecwid_body nav.horizontal-menu ul li:hover,
+      html#ecwid_html body#ecwid_body .horizontal-menu-button ul li:hover {
+        background-color: #115080 !important;
+        border-radius: 4px !important;
+      }
+
+      html#ecwid_html body#ecwid_body .ecsp span,
+      html#ecwid_html body#ecwid_body .ecwid span {
+        font-size: 16px !important;
+        display: flex !important;
+        gap: 15px;
+      }
+
+      html#ecwid_html body#ecwid_body .ecsp span,
+      html#ecwid_html body#ecwid_body .ecwid span:hover {
+        opacity: 0.7;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-mobile
+        .horizontal-menu-button {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .horizontal-menu-container.horizontal-mobile
+        .horizontal-menu-button
+        ::before {
+        content: url('data:image/svg+xml,<svg class="header__burger-icon" heigth="21" width="21" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z" id="mainIconPathAttribute"></path></svg>') !important;
+        width: 10px;
+        height: 10px;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        nav.horizontal-menu.horizontal-menu--mobile
+        .horizontal-menu-item
+        > a {
+        height: 51px;
+        display: flex !important;
+        align-items: center !important;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        nav.horizontal-menu.horizontal-menu--mobile
+        .horizontal-menu-item:hover
+        > a
+        span {
+        color: white !important;
+      }
+
+      html#ecwid_html body#ecwid_body .ec-size .ec-store h1,
+      html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-header-h1 {
+        margin: 10px 0 !important;
+        font-family: "Root UI", "Segoe UI", Roboto, Arial, sans-serif;
       }
     </style>
   </head>
   <body class="root">
     <div class="page">
       <header class="header">
-        <a class="logo"><h1 class="logo__image">OCTOPUS BONES</h1></a>
+        <a class="logo" href="./index.html"
+          ><h1 class="logo__image">OCTOPUS BONES</h1></a
+        >
         <nav class="header__navigation">
           <a href="./index.html" class="header__link">Магазин</a>
-          <a href="https://octopusbones.com/" class="header__link">О нас</a>
-          <a href="https://octopusbones.com/" class="header__link">Адрес</a>
-          <a href="https://octopusbones.com/" class="header__link">Контакты</a>
+          <a href="./index.html#about" class="header__link">О нас</a>
+          <a href="./index.html#address" class="header__link">Адрес</a>
+          <a href="./index.html#contacts" class="header__link">Контакты</a>
           <a href="./care.html" class="header__link">Состав и уход</a>
         </nav>
         <button class="header__burger-btn">
@@ -69,11 +217,9 @@
           </button>
           <nav class="header__burger-nav">
             <a href="./index.html" class="header__link">Магазин</a>
-            <a href="https://octopusbones.com/" class="header__link">О нас</a>
-            <a href="https://octopusbones.com/" class="header__link">Адрес</a>
-            <a href="https://octopusbones.com/" class="header__link"
-              >Контакты</a
-            >
+            <a href="./index.html#about" class="header__link">О нас</a>
+            <a href="./index.html#address" class="header__link">Адрес</a>
+            <a href="./index.html#contacts" class="header__link">Контакты</a>
             <a href="./care.html" class="header__link">Состав и уход</a>
           </nav>
         </div>
@@ -121,7 +267,7 @@
             );
           </script>
         </div>
-        <section class="about">
+        <section class="about" id="about">
           <h2 class="about__title">О БРЕНДЕ</h2>
           <div class="about__wrapper">
             <ul class="about__paragraphs">
@@ -157,7 +303,7 @@
             </div>
           </div>
         </section>
-        <section class="mission">
+        <section class="mission" id="mission">
           <h2 class="mission__title">МИССИЯ</h2>
           <p class="mission__text">
             Творчество, самореализация, жизнь с кайфом, возможность заниматься
@@ -165,7 +311,7 @@
             на ум, когда я сел заполнять этот раздел.
           </p>
         </section>
-        <section class="reviews">
+        <section class="reviews" id="reviews">
           <ul class="reviews__list">
             <li class="reviews__item">
               <div class="reviews__icon">
@@ -244,7 +390,7 @@
             </li>
           </ul>
         </section>
-        <section class="address">
+        <section class="address" id="address">
           <h2 class="address__title">АДРЕС</h2>
           <div class="address__wrapper">
             <iframe
@@ -300,7 +446,7 @@
             </div>
           </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
           <h2 class="contacts__title">КОНТАКТЫ</h2>
           <ul class="contacts__links">
             <li class="contacts__link-item">
