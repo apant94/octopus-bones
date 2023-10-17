@@ -8,6 +8,8 @@
   position: absolute;
   left: 5em;
   top: 1.17em;
+  color: #000000;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 640px) {
