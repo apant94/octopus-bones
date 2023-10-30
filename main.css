@@ -5,7 +5,7 @@
 .logo__image{text-wrap:nowrap;font-family:PPAgrandir,Arial,sans-serif;font-size:1.25em;font-weight:300;margin:0}@media screen and (max-width:1024px){.logo__image{font-size:12px}}@media screen and (max-width:768px){.logo__image{font-size:6em;letter-spacing:.06em}}
 .header{align-items:center;border-bottom:1px solid #d9cfcf;display:flex;height:6.7em;justify-content:center}@media screen and (max-width:768px){.header{height:21em;justify-content:flex-end}}
 .header__navigation{display:flex;gap:3%;justify-content:center;scroll-behavior:smooth;width:100%}@media screen and (max-width:768px){.header__navigation{display:none;opacity:0}}
-.header__link{color:#333;cursor:pointer;font-size:1.25em;text-decoration:none}.header__link:hover{color:#115080;opacity:.8}@media screen and (max-width:1024px){.header__link{font-size:16px}}@media screen and (max-width:768px){.header__link{font-size:6em}}
+.header__link{color:#333;cursor:pointer;font-size:1.25em;text-decoration:none}.header__link:hover{color:#115080;opacity:.8}@media screen and (max-width:1024px){.header__link{font-size:16px}}@media screen and (max-width:768px){.header__link{font-size:6em}}@media screen and (min-width:769px){.header__link{font-weight:600}}
 .header__burger-btn{background-color:transparent;border:none;cursor:pointer;padding:0}@media screen and (min-width:769px){.header__burger-btn{display:none;opacity:0}}
 .header__burger-icon{height:5.5em;width:5.5em}
 .header__burger-wrapper{background-color:hsla(0,4%,5%,.5);bottom:0;display:flex;gap:2.3em;left:0;margin:0;opacity:0;position:fixed;right:0;top:0;transition:visibility .2s,opacity .2s linear;visibility:hidden;z-index:3}
