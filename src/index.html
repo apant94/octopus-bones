@@ -78,7 +78,7 @@
         body#ecwid_body
         .horizontal-menu-container.horizontal-mobile {
         border: none !important;
-        padding: 0 0 10px 0 !important;
+        padding: 0 0 15px 0 !important;
       }
 
       html#ecwid_html
@@ -115,7 +115,7 @@
 
       html#ecwid_html body#ecwid_body nav.horizontal-menu ul li:hover,
       html#ecwid_html body#ecwid_body .horizontal-menu-button ul li:hover {
-        background-color: #115080 !important;
+        background-color: transparent !important;
         border-radius: 4px !important;
       }
 
@@ -166,13 +166,25 @@
         .horizontal-menu-item:hover
         > a
         span {
-        color: white !important;
+        color: #115080 !important;
       }
 
       html#ecwid_html body#ecwid_body .ec-size .ec-store h1,
       html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-header-h1 {
         margin: 10px 0 !important;
         font-family: "Root UI", "Segoe UI", Roboto, Arial, sans-serif;
+      }
+
+      html#ecwid_html
+        body#ecwid_body
+        .ec-size:not(.ec-size--s)
+        .ec-store
+        .ec-breadcrumbs {
+        display: flex !important;
+      }
+
+      .ecwid-search-widget__input {
+        border-radius: 6px !important;
       }
     </style>
   </head>

@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .header__navigation {
     display: none;
     opacity: 0;
