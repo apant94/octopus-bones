@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .care__info-text {
     font-size: 4em;
   }

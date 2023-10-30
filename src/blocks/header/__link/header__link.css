@@ -22,3 +22,9 @@
     font-size: 6em;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .header__link {
+    font-weight: 600;
+  }
+}

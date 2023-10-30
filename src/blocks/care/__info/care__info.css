@@ -5,7 +5,7 @@
   gap: 2.34em;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
   .care__info {
     gap: 5em;
   }

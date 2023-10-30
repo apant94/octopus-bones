@@ -11,5 +11,5 @@
   gap: 2.3em;
   background-color: rgba(12, 11, 11, .5);
   z-index: 3;
-  transition: visibility .5s, opacity .5s linear;
+  transition: visibility .2s, opacity .2s linear;
 }
